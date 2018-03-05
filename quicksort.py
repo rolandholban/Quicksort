@@ -16,7 +16,6 @@ def quicksort(array, leftIndex, rightIndex):
     
 
 def partition(array, left, right):
-    global comparisonCount
     pivot = array[left]
     i = left + 1
     for j in range(left + 1, right + 1):
